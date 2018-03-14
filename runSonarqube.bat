@@ -1,0 +1,1 @@
+C:\mvn\apache-maven-3.5.2\bin\mvn sonar:sonar  "-Dsonar.host.url=http://10.10.10.195:9000"  "-Dsonar.projectKey=reactRedux" "-Dsonar.projectName=React Redux Boilerplate" "-Dsonar.projectVersion=1.0" "-Dsonar.sources=src" "-Donar.sourceEncoding=UTF-8" "-Dsonar.javascript.file.suffixes=.js,.jsx"

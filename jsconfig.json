@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "baseUrl": ".", 
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "Actions": ["./src/actions"],
+            "Scenes":  ["src/scenes"],
+            "Reducers": ["./src/reducers"],
+            "Store":  ["./src/store"],
+            "DevTools": ["./build/dev-tools"],
+            "Components": ["./src/components"],
+            "Styles": ["./src/assets/styles"],
+            "Images": ["./src/assets/images"]
+            
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+}
